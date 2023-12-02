@@ -51,7 +51,6 @@ fun WriteScreen(todoViewModel: TodoViewModel, navController: NavController) {
                 backgroundColor = Color.White,
                 elevation = 0.dp,
                 navigationIcon = {
-                    // 네비게이션 아이콘 (메뉴)
                     IconButton(
                         onClick = {
                             navController.navigateUp()
